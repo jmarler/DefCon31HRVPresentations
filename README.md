@@ -102,3 +102,16 @@ Git clone KM4ACK’s build-a-pi tool:
 ```
    git clone https://github.com/km4ack/pi-build.git
 ```
+
+## Packages I typically install using the script
+This is the very base minimal list of ham apps that I always use. Feel free to install everything, it will just take longer.
+- HAMLIB
+- DIREWOLF
+- AX25
+- PULSE
+- CHIRP
+- JS8CALL
+- WSJTX
+- QSSTV
+- GRIDTRACKER
+- TQSL
