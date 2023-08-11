@@ -30,11 +30,6 @@ Link to RealVNC installer: https://downloads.realvnc.com/download/file/vnc.files
 
 Install gnome-classic if you want the menus
 
-Git clone KM4ACK’s build-a-pi tool: 
-```
-   git clone https://github.com/km4ack/pi-build.git
-```
-
 ## Libre Renegade notes
 
 Boots Libre’s Raspbian without any issues. 
@@ -98,13 +93,20 @@ sudo ldconfig
 
 Link to RealVNC installer: https://downloads.realvnc.com/download/file/vnc.files/VNC-Connect-Installer-1.3.0-Linux-ARM64.tar.gz
 
-Git clone KM4ACK’s build-a-pi tool: 
+# Build-a-pi
+Use git to clone KM4ACK’s build-a-pi tool: 
 ```
-   git clone https://github.com/km4ack/pi-build.git
+git clone https://github.com/km4ack/pi-build.git
+```
+
+Launch the script with this command:
+```
+./pi-build/build-a-pi
 ```
 
 ## Packages I typically install using the script
 This is the very base minimal list of ham apps that I always use. Feel free to install everything, it will just take longer.
+
 - HAMLIB
 - DIREWOLF
 - AX25
