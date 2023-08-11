@@ -72,24 +72,15 @@ To enable access to the emmc, replace fdtfile=rockchip/rk3588s-orangepi-5.dtb in
 To make gnome look like what is more familiar:
 
 ```
-sudo apt install lxdm
+sudo apt install lxdm gnome-system-tools
 sudo apt remove nodm
 sudo dpkg-reconfigure lxdm
 
 sudo apt install lxde
 sudo reboot
-
-sudo vi /usr/share/xsessions/xfce.desktop
 ```
 
-replace `Name=Xfce Session` with `Name=Xfce-Session` to fix xfce if you want xfce
-
-Classic gnome session install
-
-```
-sudo apt install gnome-session
-sudo update-alternatives --config gdm3.css
-```
+Choose the LXDE session to see a list of menus like what you expect
 
 The date is set wrongideewrongwrong at the factory. This breaks apt with weird errors about the latest release not being valid yet
 
