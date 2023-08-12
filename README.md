@@ -4,8 +4,12 @@ Presentations and their notes that I presented at the Ham Radio Village for DefC
 # Digital Modes Primer
 This presentation goes over the most popular digital modes available for use by amateur radio operators. Includes audio samples of many.
 
+View in HTML format at: https://jmarler.github.io/Amateur%20Radio%20Digital%20Modes%20Primer%20-%20Aug%202023/
+
 # Ham digital modes without a Raspberry Pi
 After the p4ndem1c, the raspberry pi became very challenging to obtain. This presentation goes over research I completed into alternative SBCs to the Raspberry Pi that can be used for ham radio digital modes.
+
+View in HTML format at: https://jmarler.github.io/Ham%20digital%20modes%20without%20a%20Raspberry%20Pi/ 
 
 # Notes for individual SBC models researched for this presentation
 Below are random notes I wrote during my research. This includes many commands I used to get things to work. 
